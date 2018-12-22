@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+        <title>Bootstrap 4 Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="" rel="stylesheet" />
+       <!--
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+-->
+        <!-- jQuery must be imported before Foundation -->
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <!-- this will include every plugin and utility required by Foundation -->
+        <script src="bower_components/foundation-sites/dist/js/foundation.min.js"></script>
+
+
+
+        <!-- Example of selectively including files -->
+        <script src="bower_components/foundation-sites/js/foundation.core.js"></script>  <!-- Required -->
+        <script src="bower_components/foundation-sites/js/foundation.util.mediaQuery.js"></script>
+        <script src="bower_components/foundation-sites/js/foundation.tabs.js"></script>
+        <script src="bower_components/foundation-sites/js/foundation.accordion.js"></script>
+
+       
+        <link rel="stylesheet" href="bower_components/foundation-apps/dist/css/foundation-apps.css">
+        <link rel="stylesheet" href="bower_components/foundation-apps/dist/css/foundation-apps.min.css">
+        <script src="bower_components/foundation-apps/dist/js/foundation-apps.js"></script>
+        <script src="bower_components/foundation-apps/dist/js/foundation-apps.min.js"></script>
+        <script src="bower_components/foundation-apps/dist/js/foundation-apps-templates.js"></script>
+        <script src="bower_components/foundation-apps/dist/js/foundation-apps-templates.min.js"></script>
+        <script>
+            $(document).foundation();
+        </script>
+        
+    
+</head>
+<body>
+
+        <button type="button" class="button radius bordered shadow primary">Primary</button>
+        <button type="button" class="button rounded bordered shadow secondary">Secondary</button>
+        <button type="button" class="button radius bordered shadow success">Success</button>
+        <button type="button" class="button rounded bordered shadow alert">Alert</button>
+        <button type="button" class="button radius bordered shadow warning">Warning</button>
+
+        
+<form>
+        <div class="grid-container">
+          <div class="grid-x grid-padding-x">
+            <div class="medium-6 cell">
+              <label>Input Label
+                <input type="text" placeholder="Name">
+              </label>
+            </div>
+            <div class="medium-6 cell">
+              <label>Input Label
+                <input type="text" placeholder="LastName">
+              </label>
+            </div>
+            <div class="medium-6 cell">
+                    <label>Input Label
+                            <input type="password" aria-describedby="passwordHelpText">
+                    </label>
+            </div>
+            <div class="medium-6 cell">
+            <label>Select Menu
+                    <select>
+                      <option value="husker">Husker</option>
+                      <option value="starbuck">Starbuck</option>
+                      <option value="hotdog">Hot Dog</option>
+                      <option value="apollo">Apollo</option>
+                    </select>
+            </label>
+            </div>
+          </div>
+        </div>
+      </form>
+
+      <div class="container">
+            <span class="badge primary">1</span>
+            <span class="badge secondary">2</span>
+            <span class="badge success">3</span>
+            <span class="badge alert">A</span>
+            <span class="badge warning">B</span>
+      </div>
+      
+      
+</body>
